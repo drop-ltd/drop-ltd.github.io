@@ -16,10 +16,17 @@ html, body {
 }
 
 /* Footer styles */
-.footer {
+footer {
     background-color: #000; /* Example background */
     color: #fff; /* Example text color */
     text-align: center;
     padding: 10px 0;
     opacity: 0.35
+}
+
+href {
+    text-decoration:none;
+}
+href:hover {
+    text-decoration:underline;
 }
