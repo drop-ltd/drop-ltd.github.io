@@ -5,14 +5,14 @@ html, body {
     margin: 0; /* Remove default margins */
     display: flex;
     flex-direction: column; /* Align items vertically */
-    font-family: 'Inter', Arial, sans-serif; 
+    font-family: 'Inter', Helvetica, sans-serif; 
     background-color: rgb(21, 32, 43); 
     scrollbar-color: rgb(92, 110, 126) rgb(30, 39, 50); 
     color: #ffffff;
 }
 
 /* Make the content area grow to take up available space */
-.content {
+content {
     flex: 1; /* Grow to fill available space */
 }
 
@@ -22,7 +22,8 @@ footer {
     color: #ffffff; /* Example text color */
     text-align: center;
     padding: 10px 0;
-    opacity: 0.35
+    opacity: 0.35;
+    align: bottom;
 }
 
 href {
